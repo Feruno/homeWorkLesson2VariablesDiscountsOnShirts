@@ -12,7 +12,7 @@ public class App {
         final int numberSelectedShirts = 4;
         System.out.println("Количество уже выбранных рубашек : " + numberSelectedShirts);
 
-        int numberShirtsNeedBuyGetDiscount = 5;
+        final int numberShirtsNeedBuyGetDiscount = 5;
         System.out.println("Количество рубашек, которые надо купить, чтобы получить скидку : " + numberShirtsNeedBuyGetDiscount);
 
         int numberShirtsNeedAddedPurchasedGetDiscount = numberShirtsNeedBuyGetDiscount - numberSelectedShirts;
